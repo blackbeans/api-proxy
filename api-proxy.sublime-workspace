@@ -1,0 +1,789 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"re",
+				"reqURL	string ν"
+			],
+			[
+				"U",
+				"RequestURI	string ν"
+			],
+			[
+				"pr",
+				"Println	 ƒ"
+			],
+			[
+				"log",
+				"Logger	struct ʈ"
+			],
+			[
+				"fa",
+				"Fatalln	 ƒ"
+			],
+			[
+				"Fr",
+				"FormValue	string ƒ"
+			],
+			[
+				"f",
+				"Form	url.Values ν"
+			],
+			[
+				"c",
+				"Close	bool ν"
+			],
+			[
+				"d",
+				"DumpResponse	dump []byte, err error ƒ"
+			],
+			[
+				"w",
+				"WriteHeader	 ƒ"
+			],
+			[
+				"htt",
+				"http	 package ρ"
+			],
+			[
+				"du",
+				"DumpRequestOut	[]byte, error ƒ"
+			],
+			[
+				"R",
+				"NewRequest	*http.Request, error ƒ"
+			],
+			[
+				"D",
+				"DumpResponse	dump []byte, err error ƒ"
+			],
+			[
+				"han",
+				"Handler	interface ¡"
+			],
+			[
+				"Serve",
+				"Server	struct ʈ"
+			],
+			[
+				"u",
+				"reqURL	string ν"
+			],
+			[
+				"http",
+				"httputil	 package ρ"
+			],
+			[
+				"dia",
+				"DialTCP	*net.TCPConn, error ƒ"
+			],
+			[
+				"for",
+				"FormValue	string ƒ"
+			],
+			[
+				"json",
+				"_json	string ν"
+			],
+			[
+				"wr",
+				"writer	http.ResponseWriter ν"
+			],
+			[
+				"Get",
+				"Getgid	int ƒ"
+			],
+			[
+				"Re",
+				"Request	struct ʈ"
+			],
+			[
+				"Ha",
+				"HandleFunc	 ƒ"
+			],
+			[
+				"IN",
+				"init	func init() ʂ"
+			],
+			[
+				"ma",
+				"Marshal	[]byte, error ƒ"
+			],
+			[
+				"ha",
+				"HandleFunc	 ƒ"
+			],
+			[
+				"resp",
+				"ResponseWriter	interface ¡"
+			],
+			[
+				"fun",
+				"func	func{...}() ʂ"
+			],
+			[
+				"de",
+				"DecodeRune	rune ƒ"
+			],
+			[
+				"do",
+				"down2	int32 ν"
+			],
+			[
+				"di",
+				"TempDir	string ƒ"
+			],
+			[
+				"get",
+				"Getenv	string ƒ"
+			],
+			[
+				"open",
+				"OpenFile	file *os.File, err error ƒ"
+			],
+			[
+				"Sq",
+				"Sqrt	float64 ƒ"
+			],
+			[
+				"SQ",
+				"Sqrt	float64 ƒ"
+			],
+			[
+				"s",
+				"Sqrt	float64 ƒ"
+			],
+			[
+				"im",
+				"import	import (...) ʂ"
+			],
+			[
+				"un",
+				"Unmarshal	error ƒ"
+			],
+			[
+				"r",
+				"rpcGo	*rpc.Call ν"
+			],
+			[
+				"n",
+				"Now	time.Time ƒ"
+			],
+			[
+				"rp",
+				"rpcGo	*rpc.Call ν"
+			],
+			[
+				"ser",
+				"Serve	error ƒ"
+			],
+			[
+				"ca",
+				"cal	*Calculator ν"
+			],
+			[
+				"Cal",
+				"Calculator	struct ʈ"
+			],
+			[
+				"C",
+				"Calculator	struct ʈ"
+			],
+			[
+				"Han",
+				"HandleFunc	 ƒ"
+			],
+			[
+				"post",
+				"PostForm	resp *http.Response, err error ƒ"
+			],
+			[
+				"read",
+				"ReadBytes	line []byte, err error ƒ"
+			],
+			[
+				"bu",
+				"buff	 ν"
+			],
+			[
+				"io",
+				"ioutil	 package ρ"
+			],
+			[
+				"da",
+				"DialIP	*net.IPConn, error ƒ"
+			],
+			[
+				"Wri",
+				"Write	n int, err error ƒ"
+			],
+			[
+				"M",
+				"Marshal	[]byte, error ƒ"
+			],
+			[
+				"New",
+				"NewIMClient	client *IMClient ƒ"
+			],
+			[
+				"RE",
+				"Response	struct ʈ"
+			],
+			[
+				"Im",
+				"IMClient	struct ʈ"
+			],
+			[
+				"cl",
+				"cclient	*CenterClient ν"
+			],
+			[
+				"fma",
+				"FormatFloat	string ƒ"
+			],
+			[
+				"fl",
+				"FormatFloat	string ƒ"
+			],
+			[
+				"fu",
+				"func	Function"
+			],
+			[
+				"p",
+				"player	 ν"
+			],
+			[
+				"i",
+				"imp	Import"
+			],
+			[
+				"Print",
+				"Println	n int, err error ƒ"
+			],
+			[
+				"cou",
+				"countDonw	 ν"
+			],
+			[
+				"co",
+				"countDonw	 ν"
+			],
+			[
+				"time",
+				"timeout	chan bool ν"
+			],
+			[
+				"mu",
+				"musicName	string ν"
+			],
+			[
+				"Pri",
+				"Println	n int, err error ƒ"
+			],
+			[
+				"mus",
+				"music	 ν"
+			],
+			[
+				"Pi",
+				"Println	n int, err error ƒ"
+			],
+			[
+				"int",
+				"ParseInt	i int64, err error ƒ"
+			],
+			[
+				"line",
+				"lineraw	[]byte ν"
+			],
+			[
+				"st",
+				"strconv	 package ρ"
+			],
+			[
+				"l",
+				"lineraw	[]byte ν"
+			],
+			[
+				"m",
+				"musics	[]entry.Music ν"
+			],
+			[
+				"P",
+				"Play	 ƒ"
+			],
+			[
+				"Pla",
+				"Player	*Mp3Player ν"
+			],
+			[
+				"No",
+				"Now	time.Time ƒ"
+			],
+			[
+				"pn",
+				"Println	n int, err error ƒ"
+			],
+			[
+				"Prn",
+				"Println	n int, err error ƒ"
+			],
+			[
+				"F",
+				"Fatal	 ƒ"
+			],
+			[
+				"GO",
+				"GOPATHs"
+			],
+			[
+				"print",
+				"Println	n int, err error ƒ"
+			],
+			[
+				"v",
+				"v2	int ν"
+			],
+			[
+				"err",
+				"err2	error ν"
+			],
+			[
+				"in",
+				"ParseInt	i int64, err error ƒ"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 167.0,
+		"selected_items":
+		[
+			[
+				"redi",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"rei",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"red",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"",
+				"Build: Build"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"re",
+				"CTags: Rebuild Tags"
+			],
+			[
+				"tag",
+				"CTags: Rebuild Tags"
+			],
+			[
+				"rein",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"rebu",
+				"CTags: Rebuild Tags"
+			],
+			[
+				"s",
+				"SFTP: Browse Server…"
+			],
+			[
+				"set",
+				"Set Syntax: Go"
+			],
+			[
+				"reb",
+				"CTags: Rebuild Tags"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"rebui",
+				"CTags: Rebuild Tags"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"GoSublime: ",
+				"GoSublime: Show last build output"
+			],
+			[
+				"gos",
+				"Set Syntax: GoSublime Commander"
+			],
+			[
+				"gosulime",
+				"GoSublime: Show errors"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"clea",
+				"Preferences: SublimeGDB Settings – Default"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: main()"
+			],
+			[
+				"code ",
+				"GoSublime: Install/Update MarGo and Gocode"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: insa",
+				"Package Control: Install Package"
+			],
+			[
+				"run",
+				"GoSublime: Play/Run (current file only)"
+			],
+			[
+				"fo",
+				"GoSublime: Play/Run (current file only)"
+			],
+			[
+				"Package Control: instal",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: i",
+				"Package Control: Install Package"
+			],
+			[
+				"pci",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: install package",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: int",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 494.0
+	},
+	"console":
+	{
+		"height": 170.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/Xmx/workspace/immomo/service/api-proxy/googleapi.go",
+		"/Users/Xmx/workspace/immomo/service/api-proxy/api-proxy.sublime-project",
+		"/usr/local/go/src/pkg/net/http/httputil/dump.go",
+		"/usr/local/go/src/pkg/net/http/response.go",
+		"/usr/local/go/src/pkg/net/http/request.go",
+		"/usr/local/go/src/pkg/net/http/client.go",
+		"/Users/Xmx/workspace/immomo/service/api-proxy/src/com.immomo.goapiproxy/server/server.go",
+		"/Users/Xmx/Library/Caches/TemporaryItems/BetterZip 临时文件夹.WHr6NM/BetterZip 临时文件夹.sYCnv5/META-INF/MANIFEST.MF",
+		"/Users/Xmx/Library/Application Support/Sublime Text 2/Packages/GoSublime/CHANGELOG.md",
+		"/Users/Xmx/workspace/google/cgss/dic/dic-demo.txt",
+		"/Users/Xmx/workspace/google/cgss/src/com.blackbeans/main/demo.go",
+		"/Users/Xmx/workspace/google/cgss/src/com.blackbeans/main/main.go",
+		"/usr/local/go/src/pkg/os/file.go",
+		"/Users/Xmx/Library/Application Support/Sublime Text 2/Packages/CTags/CTags.sublime-settings",
+		"/usr/local/go/src/pkg/net/http/server.go",
+		"/Users/Xmx/workspace/google/cgss/src/com.blackbeans/imentry/entry.go",
+		"/Users/Xmx/Library/Application Support/Sublime Text 2/Packages/User/CTags.sublime-settings",
+		"/usr/local/go/src/pkg/net/http/doc.go",
+		"/usr/local/go/src/pkg/fmt/doc.go",
+		"/usr/local/go/src/pkg/builtin/builtin.go",
+		"/usr/local/go/src/pkg/bufio/bufio.go",
+		"/usr/local/go/src/pkg/encoding/json/bench_test.go",
+		"/usr/local/go/src/pkg/math/abs.go",
+		"/usr/local/go/src/pkg/os/file_windows.go",
+		"/Users/Xmx/workspace/google/cgss/src/com.blackbeans/net/rpcdemo.go",
+		"/Users/Xmx/workspace/google/cgss/src/com.blackbeans/ipc/centerserver.go",
+		"/Users/Xmx/workspace/google/cgss/src/com.blackbeans/main/demo",
+		"/Users/Xmx/workspace/google/cgss/src/com.blackbeans/imentry/entry_demo.go",
+		"/Users/Xmx/workspace/google/cgss/src/com.blackbeans/ipc/centerclient.go",
+		"/Users/Xmx/workspace/google/cgss/src/com.blackbeans/main/rpcdemo.go",
+		"/Users/Xmx/workspace/google/cgss/src/com.blackbeans/net/network.go",
+		"/usr/local/go/src/pkg/net/rpc/client.go",
+		"/usr/local/go/src/pkg/fmt/print.go",
+		"/usr/local/go/src/pkg/net/dial.go",
+		"/Users/Xmx/workspace/google/cgss/src/com.blackbeans/ipc/client.go",
+		"/usr/local/go/src/pkg/io/ioutil/ioutil.go",
+		"/Users/Xmx/workspace/google/cgss/src/com.blackbeans/ipc/server.go",
+		"/Users/Xmx/workspace/google/cgss/src/com.blackbeans/ipc/client_test.go",
+		"/Users/Xmx/Library/Application Support/Sublime Text 2/Packages/User/GoSublime.sublime-settings",
+		"/Users/Xmx/Library/Application Support/Sublime Text 2/Packages/GoSublime/GoSublime.sublime-settings",
+		"/Users/Xmx/workspace/google/cgss/src/com.blackbeans/ipc/centerserver_test.go",
+		"/Users/Xmx/workspace/google/cgss/src/com.blackbeans/ipc/centerserver_test.g",
+		"/Users/Xmx/workspace/google/cgss/src/com.blackbeans/entry/entry.go",
+		"/Users/Xmx/workspace/google/cgss/cgss.sublime-project",
+		"/Users/Xmx/workspace/google/cgss/src/ipc/server.go",
+		"/Users/Xmx/workspace/google/cgss/src/main/main.go",
+		"/Users/Xmx/workspace/google/cgss/cgss.sublime-workspace",
+		"/Users/Xmx/workspace/google/musicplayer/src/com.blackbeans/main/channeltest.go",
+		"/Users/Xmx/workspace/google/musicplayer/src/com.blackbeans/main/mplayer.go",
+		"/Users/Xmx/workspace/google/musicplayer/src/com.blackbeans/player/player.go",
+		"/Users/Xmx/workspace/google/musicplayer/src/com.blackbeans/player/typeplayer.go",
+		"/Users/Xmx/workspace/google/musicplayer/src/com.blackbeans/manager/manager.go",
+		"/Users/Xmx/workspace/google/musicplayer/src/com.blackbeans/entry/entry.go",
+		"/Users/Xmx/workspace/google/musicplayer/src/com.blackbeans/manager/manager_test.go",
+		"/usr/local/go/src/pkg/strconv/atob.go",
+		"/usr/local/go/src/pkg/strconv/atoi.go",
+		"/Users/Xmx/workspace/google/musicplayer/src/com.blackbeans/player/typeplayer_test.go",
+		"/Users/Xmx/workspace/google/musicplayer/src/com.blackbeans/manager/manager.txt",
+		"/Users/Xmx/workspace/google/musicplayer/pkg/darwin_amd64/com.blackbeans/entry.a",
+		"/Users/Xmx/workspace/google/musicplayer/src/com.blackbeans/player/IPlayer",
+		"/Users/Xmx/workspace/google/musicplayer/src/com.blackbeans/manager/IPlayer",
+		"/Users/Xmx/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/Xmx/Library/Application Support/Sublime Text 2/Packages/DocBlockr/Base File.sublime-settings",
+		"/Users/Xmx/Library/Application Support/Sublime Text 2/Packages/User/Go.sublime-settings",
+		"/Users/Xmx/Library/Application Support/Sublime Text 2/Packages/GoSublime/AUTHORS.md",
+		"/Users/Xmx/workspace/google/musicplayer/src/com.blackbeans/musicplayer/musicplayer.go",
+		"/Users/Xmx/workspace/google/musicplayer/src/com.blackbeans/manager/manager_test.txt",
+		"/Users/Xmx/workspace/google/musicplayer/src/com.blackbeans/main/main.go",
+		"/Users/Xmx/workspace/google/musicplayer/src/manager/manager.go",
+		"/Users/Xmx/workspace/google/musicplayer/src/main/main.go",
+		"/Users/Xmx/workspace/google/musicplayer/musicplayer.sublime-project",
+		"/Users/Xmx/workspace/google/musicplayer/src/entry/entry.go",
+		"/Users/Xmx/workspace/google/musicplayer/src/main/main",
+		"/Users/Xmx/workspace/google/musicplayer/src/main.go",
+		"/Users/Xmx/workspace/google/musicplayer/musicplayer.sublime-workspace",
+		"/Users/Xmx/workspace/google/musicplayer/src/manager/manager_test.go",
+		"/Users/Xmx/workspace/google/musicplayer/bin/sftp-config.json",
+		"/Users/Xmx/workspace/google/musicplayer/musicplayer/musicplayer.go",
+		"/Users/Xmx/workspace/google/musicplayer/src/musicplayer.go",
+		"/Users/Xmx/Library/Application Support/Sublime Text 2/Packages/User/Base File.sublime-settings",
+		"/Users/Xmx/Library/Application Support/Sublime Text 2/Packages/Package Control/Package Control.sublime-settings",
+		"/Users/Xmx/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/Xmx/workspace/google/musicplayer/src/musicplayer/main.go",
+		"/Users/Xmx/Library/Application Support/Sublime Text 2/Packages/SublimeGDB/SublimeGDB.sublime-settings",
+		"/Users/Xmx/Library/Application Support/Sublime Text 2/Packages/User/Package Control.sublime-settings",
+		"/Users/Xmx/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/Xmx/workspace/google/sorter/src/sorter/sorter.go",
+		"/Users/Xmx/workspace/google/sorter/sorter.sublime-project",
+		"/Users/Xmx/workspace/google/golang/demo/src/simplemath/add.go",
+		"/Users/Xmx/workspace/google/golang/demo/demo.sublime-project",
+		"/Users/Xmx/workspace/google/golang/demo/src/calc/calc.go"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"	writer.Header().Set(\"Content-Type\", \"text\")",
+			"\"\n",
+			"	\n",
+			")\n",
+			"true",
+			"!\")",
+			"fmt",
+			"sic",
+			"strconv",
+			"}()\n",
+			"handleManagerCommand",
+			"}()\n",
+			"playerWMAPlayer",
+			"Play",
+			"\n",
+			"WMAPlayer",
+			"Mp3Playerer",
+			"\n",
+			"		\"path\": \"src\"\n",
+			"         \"env\": {\"GOROOT\": \"${home}/workspace/google/sorter/\",\"GOPATH\":\"/usr/local/go/bin\"},",
+			"         ",
+			"sorter",
+			"\"GOPATH\": \"/Users/Xmx/workspace/google/sorter\"",
+			"package",
+			"var infile *string = flag.\n",
+			"flag",
+			"simplemath",
+			")\n",
+			"Atoi",
+			"simplemath",
+			" )}",
+			".,",
+			"\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.GsDepends-output":
+	{
+		"height": 100.0
+	},
+	"output.GsDoc-output-output":
+	{
+		"height": 143.0
+	},
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"output.gscommander:///Users/Xmx/workspace/google/musicplayer/src/com.blackbeans/entry":
+	{
+		"height": 298.0
+	},
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 100.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"entry",
+				"src/entry/entry.go"
+			],
+			[
+				"en",
+				"src/entry/entry.go"
+			],
+			[
+				"",
+				"/Users/Xmx/workspace/google/golang/helloworld.go"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/Users/Xmx/workspace/google/sorter/sorter.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}
