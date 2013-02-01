@@ -68,7 +68,7 @@ func handleGoogleApi(rw http.ResponseWriter, r *http.Request) {
 }
 
 const (
-	url = "http://ec2-54-248-164-29.ap-northeast-1.compute.amazonaws.com:7070/api/nearby?location=41.536497,123.601047&name=鑫雅轩小吃部&token=$youtoken"
+	url = "http://localhost:7070/api/nearby?location=41.536497,123.601047&name=鑫雅轩小吃部&token=$youtoken"
 )
 
 func main() {
@@ -84,7 +84,8 @@ func main() {
 		log.Println(<-ch)
 
 	}
-
+	//
+	//模仿定时请求
 	timer := time.NewTicker(1 * time.Second)
 	for {
 		select {
