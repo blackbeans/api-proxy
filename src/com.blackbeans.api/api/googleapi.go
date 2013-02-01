@@ -40,12 +40,13 @@ func handleGoogleApi(rw http.ResponseWriter, r *http.Request) {
 		reqURL = strings.Replace(reqURL, "{2}", licence, -1)
 		log.Println("request url :", reqURL)
 		result, err := http.Get(reqURL)
+		defer result.Body.Close()
 
 		if nil != err {
 			log.Println("request google err ,url : ", reqURL, err)
 			data, _ = json.Marshal(&ResponseInfo{500, "request google fail!"})
 		} else {
-			defer result.Body.Close()
+
 			body, err := ioutil.ReadAll(result.Body)
 
 			if result.StatusCode == http.StatusOK {
@@ -67,10 +68,11 @@ func handleGoogleApi(rw http.ResponseWriter, r *http.Request) {
 }
 
 const (
-	url = "http://localhost:7070/api/nearby?location=41.536497,123.601047&name=鑫雅轩小吃部&token=AIzaSyC2q3c5xbuiy5XMbatOGHwstkOFTr3GeeA"
+	url = "http://ec2-54-248-164-29.ap-northeast-1.compute.amazonaws.com:7070/api/nearby?location=41.536497,123.601047&name=鑫雅轩小吃部&token=$youtoken"
 )
 
 func main() {
+
 	http.HandleFunc("/api/nearby", handleGoogleApi)
 
 	go func() {
@@ -83,13 +85,14 @@ func main() {
 
 	}
 
-	timer := time.NewTicker(2 * time.Second)
+	timer := time.NewTicker(1 * time.Second)
 	for {
 		select {
 		case <-timer.C:
 			log.Println(time.Now())
 			go func() {
 				reps, err := http.Get(url)
+				defer reps.Body.Close()
 				if nil != err {
 					return
 				}

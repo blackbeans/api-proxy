@@ -4,6 +4,46 @@
 		"selected_items":
 		[
 			[
+				"set",
+				"StatusRequestTimeout	 Ɩ"
+			],
+			[
+				"prin",
+				"Println	 ƒ"
+			],
+			[
+				"no",
+				"Now	time.Time ƒ"
+			],
+			[
+				"t",
+				"time	 package ρ"
+			],
+			[
+				"Prin",
+				"Println	 ƒ"
+			],
+			[
+				"time",
+				"timer	*time.Ticker ν"
+			],
+			[
+				"d",
+				"ParseDuration	time.Duration, error ƒ"
+			],
+			[
+				"Re",
+				"ResponseInfo	struct ʈ"
+			],
+			[
+				"imp",
+				"import	import (...) ʂ"
+			],
+			[
+				"S",
+				"StatusCode	int ν"
+			],
+			[
 				"re",
 				"reqURL	string ν"
 			],
@@ -34,10 +74,6 @@
 			[
 				"c",
 				"Close	bool ν"
-			],
-			[
-				"d",
-				"DumpResponse	dump []byte, err error ƒ"
 			],
 			[
 				"w",
@@ -94,10 +130,6 @@
 			[
 				"Get",
 				"Getgid	int ƒ"
-			],
-			[
-				"Re",
-				"Request	struct ʈ"
 			],
 			[
 				"Ha",
@@ -272,10 +304,6 @@
 				"countDonw	 ν"
 			],
 			[
-				"time",
-				"timeout	chan bool ν"
-			],
-			[
 				"mu",
 				"musicName	string ν"
 			],
@@ -359,13 +387,41 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "src/com.blackbeans.api/api/googleapi.go",
+			"settings":
+			{
+				"buffer_size": 2271,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 167.0,
+		"height": 392.0,
 		"selected_items":
 		[
+			[
+				"re",
+				"CTags: Rebuild Tags"
+			],
+			[
+				"rein",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"git",
+				"Git: Push"
+			],
+			[
+				"gitpu",
+				"Git: Pull"
+			],
+			[
+				"git:c",
+				"Git: Commit"
+			],
 			[
 				"redi",
 				"Indentation: Reindent Lines"
@@ -387,16 +443,8 @@
 				"Package Control: Install Package"
 			],
 			[
-				"re",
-				"CTags: Rebuild Tags"
-			],
-			[
 				"tag",
 				"CTags: Rebuild Tags"
-			],
-			[
-				"rein",
-				"Indentation: Reindent Lines"
 			],
 			[
 				"rebu",
@@ -524,6 +572,16 @@
 	},
 	"file_history":
 	[
+		"/usr/local/go/src/pkg/io/ioutil/ioutil.go",
+		"/usr/local/go/src/pkg/log/log.go",
+		"/usr/local/go/src/pkg/time/tick.go",
+		"/usr/local/go/src/pkg/time/sleep.go",
+		"/usr/local/go/src/pkg/time/time.go",
+		"/Users/Xmx/Library/Application Support/Sublime Text 2/Packages/Git/Git.sublime-settings",
+		"/Users/Xmx/Library/Application Support/Sublime Text 2/Packages/User/GoSublime.sublime-settings",
+		"/Users/Xmx/workspace/immomo/service/api-proxy/src/com.blackbeans.api/api/demo.go",
+		"/Users/Xmx/Library/Application Support/Sublime Text 2/Packages/User/Git.sublime-settings",
+		"/usr/local/go/src/pkg/net/http/doc.go",
 		"/Users/Xmx/workspace/immomo/service/api-proxy/googleapi.go",
 		"/Users/Xmx/workspace/immomo/service/api-proxy/api-proxy.sublime-project",
 		"/usr/local/go/src/pkg/net/http/httputil/dump.go",
@@ -541,7 +599,6 @@
 		"/usr/local/go/src/pkg/net/http/server.go",
 		"/Users/Xmx/workspace/google/cgss/src/com.blackbeans/imentry/entry.go",
 		"/Users/Xmx/Library/Application Support/Sublime Text 2/Packages/User/CTags.sublime-settings",
-		"/usr/local/go/src/pkg/net/http/doc.go",
 		"/usr/local/go/src/pkg/fmt/doc.go",
 		"/usr/local/go/src/pkg/builtin/builtin.go",
 		"/usr/local/go/src/pkg/bufio/bufio.go",
@@ -559,10 +616,8 @@
 		"/usr/local/go/src/pkg/fmt/print.go",
 		"/usr/local/go/src/pkg/net/dial.go",
 		"/Users/Xmx/workspace/google/cgss/src/com.blackbeans/ipc/client.go",
-		"/usr/local/go/src/pkg/io/ioutil/ioutil.go",
 		"/Users/Xmx/workspace/google/cgss/src/com.blackbeans/ipc/server.go",
 		"/Users/Xmx/workspace/google/cgss/src/com.blackbeans/ipc/client_test.go",
-		"/Users/Xmx/Library/Application Support/Sublime Text 2/Packages/User/GoSublime.sublime-settings",
 		"/Users/Xmx/Library/Application Support/Sublime Text 2/Packages/GoSublime/GoSublime.sublime-settings",
 		"/Users/Xmx/workspace/google/cgss/src/com.blackbeans/ipc/centerserver_test.go",
 		"/Users/Xmx/workspace/google/cgss/src/com.blackbeans/ipc/centerserver_test.g",
@@ -633,6 +688,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"NewTicker",
+			"New",
 			"	writer.Header().Set(\"Content-Type\", \"text\")",
 			"\"\n",
 			"	\n",
@@ -683,8 +740,127 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "src/com.blackbeans.api/api/googleapi.go",
+					"settings":
+					{
+						"buffer_size": 2271,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1084,
+								1084
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"incomplete_sync": null,
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"remote_loading": false,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": false,
+							"sublimelinter_mark_style": "outline",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"synced": false,
+							"syntax": "Packages/GoSublime/GoSublime.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 543.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -731,6 +907,10 @@
 	{
 		"height": 100.0
 	},
+	"output.git":
+	{
+		"height": 100.0
+	},
 	"output.gscommander:///Users/Xmx/workspace/google/musicplayer/src/com.blackbeans/entry":
 	{
 		"height": 298.0
@@ -753,6 +933,10 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"go",
+				"src/com.blackbeans.api/api/googleapi.go"
+			],
 			[
 				"entry",
 				"src/entry/entry.go"
