@@ -74,7 +74,9 @@ func innerHandle(rw http.ResponseWriter, r *http.Request, url string) {
 			}
 			defer resp.Body.Close()
 		}
-		respCh <- data
+		if nil != data {
+			respCh <- data
+		}
 		timeout <- false
 	}()
 
